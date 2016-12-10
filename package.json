@@ -1,0 +1,32 @@
+{
+  "name": "flash-writer",
+  "version": "1.0.0",
+  "description": "Flash ROM writer",
+  "main": "assets/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.11",
+    "electron-zip-packager": "^4.0.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-jade": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-shell": "*"
+  },
+  "dependencies": {
+    "canarium": "^0.9.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimushu/flash-writer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kimushu/flash-writer/issues"
+  },
+  "homepage": "https://github.com/kimushu/flash-writer#readme"
+}
